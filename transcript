@@ -1,0 +1,26 @@
+# Reading C:/questasim64_10.2c/tcl/vsim/pref.tcl 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile F:/verilog/Verilog_Labs_MAVEN/Project_templates/rtl/alarm_clock_top.v 
+# Loading project alaram_clk
+# Compile of time_generator.v failed with 1 errors.
+# Compile of time_generator.v was successful.
+# Compile of tb_alarm_clock.v was successful.
+# Compile of test_timegen.v failed with 1 errors.
+# Compile of test_timegen.v was successful.
+vsim -gui work.test_time_gen
+# vsim -gui work.test_time_gen 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.test_time_gen(fast)
+add wave sim:/test_time_gen/*
+# (vish-4014) No objects found matching '/test_time_gen/*'.
+quit
